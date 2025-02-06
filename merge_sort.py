@@ -28,6 +28,6 @@ def merge_sort(arr):
             j += 1
             k += 1
 
-arr = [38, 27, 43, 3, 9, 82, 10]
+arr = list(map(int, input("Enter numbers separated by space: ").split()))
 merge_sort(arr)
-print(arr)
+print("Sorted array:", arr)
